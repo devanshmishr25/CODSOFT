@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopNow - Your Online Shopping Destination</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="https://www.buybooksindia.com/assets/images/logo.png">
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Books">Books</a>
+            <a href="#Authors">Authors</a>
+            <a href="#Ebooks">Ebooks</a>
+            <a href="login">Login</a>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLlg_N_xddKyQfd1kyU78n18DG7UcykPtVpg&usqp=CAU"
+                alt="Product 1">
+            <h2>THE ROOM ON THE ROOF BY RUSKIN BOND
+            </h2>
+            <p>The Room on the Roof is the story of an orphaned Anglo-Indian boy, Rusty, living in a European colony in
+                Dehradun with his guardian Mr. Harrison, who wants him to stay away from Indians and groom him as a pure
+                Englishman.</p>
+            <p>$49.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+
+        <div class="product">
+            <img src="https://th.bing.com/th/id/OIP.Ykc9sC-MbixnY0f4bMTh4gAAAA?w=202&h=269&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                alt="Product 2">
+            <h2>THE COMPLETE ADVENTURES OF FELUDA BY SATYAJIT RAY</h2>
+            <p>Between 1965 and 1992, Satyajit Ray wrote a total of 35 Feluda stories, featuring the master sleuth
+                Pradosh C. Mitter, AKA Feluda.
+
+                These stories are now available in 2 volumes of The Complete Adventures of Feluda. They were translated
+                into English by Gopa Majumdar.</p>
+            <p>$79.99</p>
+            <a href="#" class="cta-button">Add to Cart</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>Explore More</h2>
+        <p>Discover a wide range of products at great prices.</p>
+        <a href="#" class="cta-button">View All Products</a>
+    </section>
+
+    <footer>
+        &copy; 2024 ShopNow. All rights reserved.
+    </footer>
+</body>
+
+</html>
